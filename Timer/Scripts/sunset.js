@@ -32,6 +32,7 @@ function PlaySong() {
     var songpicker = SongList[Math.floor(Math.random() * SongList.length)]
 
     Sound = new Audio(songpicker);
+            console.log("Playing:", songpicker);
 
    Sound.addEventListener('canplaythrough', function() {
     Sound.play();
