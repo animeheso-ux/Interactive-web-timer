@@ -35,7 +35,9 @@ function PlaySong() {
             console.log("Playing:", songpicker);
 
    Sound.addEventListener('canplaythrough', function() {
-    Sound.play();
+           Sound.play().catch(function(err) {
+    console.log("Play error:", err);
+});
         });
 
 
