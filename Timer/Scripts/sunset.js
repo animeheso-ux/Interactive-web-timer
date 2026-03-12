@@ -39,11 +39,6 @@ function PlaySong() {
 
 
 
-
-
-    Sound.play()
-
-
     Sound.onended = function() {
         isplaying = false;
     }
