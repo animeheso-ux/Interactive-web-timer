@@ -33,6 +33,10 @@ function PlaySong() {
 
     Sound = new Audio(songpicker);
 
+   Sound.addEventListener('canplaythrough', function() {
+    Sound.play();
+        });
+
 
 
 
