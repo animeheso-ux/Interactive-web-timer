@@ -21,8 +21,8 @@ var Days = {
 }
 
 var SongList = [
-    "song1.mp3",
-    "Song2.mp3"
+    "Audio/song1.mp3",
+    "Audio/Song2.mp3"
 ]
 
 function PlaySong() {

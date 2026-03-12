@@ -16,7 +16,7 @@
     top: 10%;
     height: 100px;
     width: 100px;
-    background-image: url("MusicIcon.png");
+    background-image: url("Pictures/MusicIcon.png");
     background-color: transparent;
     background-size: contain;
     border-color: transparent;
@@ -65,7 +65,7 @@
 
 
     z-index: 1;
-    background-image: url("sandtexture.png");
+    background-image: url("Pictures/sandtexture.png");
     background-position: center;
     background-color: transparent;
 }
