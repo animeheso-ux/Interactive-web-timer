@@ -34,10 +34,11 @@ function PlaySong() {
     Sound = new Audio(songpicker);
             console.log("Playing:", songpicker);
 
-   Sound.addEventListener('canplaythrough', function() {
-           Sound.play().catch(function(err) {
+                       Sound.play().catch(function(err) {
     console.log("Play error:", err);
 });
+
+   Sound.addEventListener('canplaythrough', function() {
         });
 
 
